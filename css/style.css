@@ -1,0 +1,20 @@
+/*Header*/
+#my_menu{ background-color: rgb(48, 46, 46); display: flex; flex-wrap: nowrap; padding: 15px; }
+#my_menu a{text-decoration: unset; margin-right: 15px; color: #fff; transition: all ease-in-out .3s }
+#my_menu a:hover{opacity: .8; }
+#my_menu a:last-child{margin-right: 0px }
+#my_menu .left{ justify-content: flex-start}
+#my_menu .right{ justify-content: flex-end; flex: 1; text-align: end}
+
+/*formatação*/
+.tac{ text-align: center}
+.tal{ text-align: left}
+.tar{ text-align: right}
+.taj{ text-align: justify}
+
+/*Index*/
+.logo{ width: 100%; max-height: 180px}
+.evento img{ display: block; margin:  0 auto; border-radius: 70%}
+.evento figcaption{ border: 1px dotted blue; padding: 2px 50px}
+
+.youtube iframe{display: block; margin: 0 auto}
